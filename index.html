@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Muli:300' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <style>
@@ -80,15 +82,15 @@
   }
   .btn {
       padding: 10px 20px;
-      background-color: #333;
-      color: #f1f1f1;
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #333;
       border-radius: 0;
       transition: .2s;
   }
   .btn:hover, .btn:focus {
-      border: 1px solid #333;
-      background-color: #fff;
-      color: #000;
+      background-color: #333;
+      color: #fff;
   }
   .modal-header, h4, .close {
       background-color: #333;
@@ -173,7 +175,7 @@ margin: auto auto auto auto;
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <a class="navbar-brand" href="#myPage" style="font-family: 'Yesteryear', cursive; font-size:30px;">Interaction Library</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -230,85 +232,46 @@ margin: auto auto auto auto;
 
 -->
 
-<!-- Container (The Band Section) -->
-
-<div id="band" class="container text-center">
-  <h3>THE BAND</h3>
-  <p><em>We love music!</em></p>
-  <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
-      <a href="#demo" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
-      </a>
-      <div id="demo" class="collapse">
-        <p>Guitarist and Lead Vocalist</p>
-        <p>Loves long walks on the beach</p>
-        <p>Member since 1988</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
-      <a href="#demo2" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
-      </a>
-      <div id="demo2" class="collapse">
-        <p>Drummer</p>
-        <p>Loves drummin'</p>
-        <p>Member since 1988</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
-      <a href="#demo3" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
-      </a>
-      <div id="demo3" class="collapse">
-        <p>Bass player</p>
-        <p>Loves math</p>
-        <p>Member since 2005</p>
-      </div>
-    </div>
-  </div>
-  <h3></h3>
-</div>
-
 <!-- Container (TOUR Section) -->
 <div id="tour" class="bg-1">
   <div class="container">
-    <h3 class="text-center">TOUR DATES</h3>
-    <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
+
+    <h3 class="text-center">CHOOSE YOUR DATABASE</h3>
+    <p class="text-center" style="padding-bottom:30px; text-decoration:none;">Bon Voyage!</p>
+<!--
     <ul class="list-group">
       <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
       <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li> 
       <li class="list-group-item">November <span class="badge">3</span></li> 
     </ul>
-    
+-->    
+    <div class="row text-center">
+	<p style="padding-bottom:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br></p>
+    </div>
+
     <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="paris.jpg" alt="Paris" width="400" height="300">
-          <p><strong>Paris</strong></p>
-          <p>Friday 27 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          <img src="image/rna.gif" alt="Paris" width="400" height="300">
+          <p style="font-size:16px;"><strong>Peptides</strong></p>
+          <p></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal" style="font-family:'Muli', sans-serif;font-size:20px;letter-spacing: 2px;">Explore</button><p></p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="newyork.jpg" alt="New York" width="400" height="300">
-          <p><strong>New York</strong></p>
-          <p>Saturday 28 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          <img src="image/Bdna.gif" alt="New York" width="400" height="300">
+          <p style="font-size:16px;"><strong>Nucleotides</strong></p>
+          <p></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal" style="font-family: 'Muli', sans-serif;font-size:20px;letter-spacing: 2px;">Explore</button><p></p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-          <p><strong>San Francisco</strong></p>
-          <p>Sunday 29 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          <img src="image/motor.gif" alt="San Francisco" width="400" height="300">
+          <p style="font-size:16px;"><strong>Magic</strong></p>
+          <p></p>
+          <button class="btn " data-toggle="modal" data-target="#myModal" style="font-family: 'Muli', sans-serif;font-size:20px;letter-spacing: 2px;">Explore</button><p></p>
         </div>
       </div>
     </div>
@@ -345,6 +308,51 @@ margin: auto auto auto auto;
           </button>
           <p>Need <a href="#">help?</a></p>
         </div>
+      </div>
+    </div>
+  </div>
+  <h3></h3>
+</div>
+
+<!-- Container (The Band Section) -->
+
+<div id="band" class="container text-center">
+  <h3>THE &mu;23 DATABASE</h3>
+  <p><em>should have come up with a cool subtitle!</em></p>
+  <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>M. Thomas Record, Jr.</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>Principal Investigator</p>
+        <p>Boss of the lab</p>
+        <p>What else can I say lol</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Yao Yao</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Developer</p>
+        <p>Loves coding</p>
+        <p>And other random things</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Name</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Bass player</p>
+        <p>Loves math</p>
+        <p>Member since 2005</p>
       </div>
     </div>
   </div>
@@ -390,7 +398,7 @@ margin: auto auto auto auto;
 <!-- Add Google Maps -->
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <script>
-var myCenter = new google.maps.LatLng(31.204873, 121.553143);
+var myCenter = new google.maps.LatLng(43.074296, -89.411047);
 
 function initialize() {
 var mapProp = {
@@ -418,7 +426,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a><br><br>
+  <!--
   <p>Bootstrap Theme Made By <a href="http://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p> 
+  -->
 </footer>
 
 <script>
