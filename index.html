@@ -10,7 +10,8 @@
   <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Muli:300' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,100,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <style>
 
@@ -20,10 +21,12 @@
   }
 
   h3 {
+      font-family: 'Josefin Sans', sans-serif;
       padding: 60px 0 0 0;
       margin: 10px 0 30px 0;
       letter-spacing: 10px;      
       font-size: 40px;
+      font-weight:300;
       color: #111;
   }
 
@@ -107,22 +110,23 @@
   #googleMap {
       width: 100%;
       height: 400px;
-margin: auto auto auto auto;
+      margin: auto auto auto auto;
   }  
   .navbar {
-      font-family: Helvetica 100, sans-serif;
-      padding-top: 10px;
-      padding-bottom: 10px;
-
+      font-family: 'Josefin Sans', sans-serif;
+      background-color:transparent;
       margin-bottom: 0;
-      background-color: #2d2d30;
       border: 0;
+      font-weight:600;
       font-size: 12px !important;
       letter-spacing: 4px;
-      opacity: 0.9;
   }
   .navbar li a, .navbar .navbar-brand { 
       color: #d5d5d5 !important;
+  }
+
+  .navbar-nav li:hover {
+      background-color:#808080;
   }
   .navbar-nav li a:hover {
       color: #fff !important;
@@ -134,6 +138,7 @@ margin: auto auto auto auto;
   .navbar-default .navbar-toggle {
       border-color: transparent;
   }
+
   .open .dropdown-toggle {
       color: #fff;
       background-color: #555 !important;
@@ -147,7 +152,7 @@ margin: auto auto auto auto;
   footer {
       background-color: #2d2d30;
       color: #f5f5f5;
-      padding: 32px;
+      padding-top:20px;padding-bottom: 5px;
   }
   footer a {
       color: #f5f5f5;
@@ -175,14 +180,17 @@ margin: auto auto auto auto;
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage" style="font-family: 'Yesteryear', cursive; font-size:30px;">Interaction Library</a>
+      <a class="navbar-brand" href="#myPage" style="font-family: 'Yesteryear', cursive; letter-spacing:0px;font-size:30px;">Interaction Library</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav">
         <li><a href="#myPage">HOME</a></li>
-        <li><a href="#band">BAND</a></li>
-        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#database">DATA</a></li>
+        <li><a href="#about">ABOUT</a></li>
         <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
           <span class="caret"></span></a>
@@ -192,7 +200,6 @@ margin: auto auto auto auto;
             <li><a href="#">Media</a></li> 
           </ul>
         </li>
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
       </ul>
     </div>
   </div>
@@ -209,7 +216,6 @@ margin: auto auto auto auto;
 -->
 
     <!-- Wrapper for slides -->
-<div><p style="padding:30px"></p></div>
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="image/trans.gif" alt="" width="1200" height="700">
@@ -233,7 +239,7 @@ margin: auto auto auto auto;
 -->
 
 <!-- Container (TOUR Section) -->
-<div id="tour" class="bg-1">
+<div id="database" class="bg-1">
   <div class="container">
 
     <h3 class="text-center">CHOOSE YOUR DATABASE</h3>
@@ -316,7 +322,7 @@ margin: auto auto auto auto;
 
 <!-- Container (The Band Section) -->
 
-<div id="band" class="container text-center">
+<div id="about" class="container text-center">
   <h3>THE &mu;23 DATABASE</h3>
   <p><em>should have come up with a cool subtitle!</em></p>
   <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -360,8 +366,9 @@ margin: auto auto auto auto;
 </div>
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container">
-  <h3 class="text-center">Contact</h3>
+<div id="contact" class="bg-1" style="padding-bottom:30px;margin-Bottom:-27px;">
+<div class="container">
+  <h3 class="text-center">CONTACT</h3>
   <p class="text-center"><em>We love our fans!</em></p>
 
   <div class="row">
@@ -389,6 +396,7 @@ margin: auto auto auto auto;
       </div>
     </div>
   </div>
+</div>
 </div>
   <br>
   
